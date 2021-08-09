@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:ital@1&display=swap');
+body {
+    font-family: 'B612', sans-serif;
+    text-align: center;
+    letter-spacing: .5em;
+    top: 15%;
+    background: rgb(152,146,250);
+    background: linear-gradient(326deg, rgba(152,146,250,1) 0%, rgba(241,179,186,1) 9%,
+    rgba(251,251,255,1) 22%, rgb(222, 222, 216) 31%, rgba(190,235,255,1) 44%, rgba(155,228,255,1) 56%,
+    rgba(204,237,250,1) 68%, rgba(255,255,255,1) 98%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+    font-family: 'B612', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+@media screen and (max-width:350px){
+    .main-heading{
+        font-size:1.6em;
+        padding-bottom: 1%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-heading {
+        font-size: 2.5em;
+        padding-bottom: 1%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main-heading {
+        font-size: 3.5em;
+        padding-bottom: 1%;
+    }
+}
+
+@media screen and (min-width:1600px){
+    .main-heading{
+        font-size:4em;
+        padding-bottom: 1%;
+    }
+}
+
+h3{
+    font-family: 'B612', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    padding: 2vh;
+}
+input:hover{
+    cursor: pointer;
+}
+.copy-section{
+    padding-top: 5vh;
+}
+
+.btn{
+    border-radius: 30px;
+    background: rgb(40,0,0);
+    color: white;
+    background: linear-gradient(230deg, rgba(40,0,0,1) 2%,
+                rgba(38,95,105,1) 50%, rgba(40,0,0,1) 100%);
+    border: 2px solid #A2D9CE;
+    font-family: 'B612', sans-serif;
+    font-size: 4vh;
+    width: 200px;
+    height: 50px;
+    transition: background-color 5s;
+}
+
+.btn:hover{
+    background: rgb(38,95,105);
+    background: linear-gradient(230deg, rgba(38,95,105,1) 2%, rgba(40,0,0,1) 50%, rgba(38,95,105,1) 100%);
+    color: wheat;
+    font-family: 'B612', sans-serif;
+    font-size: 4vh;
+    color: wheat;
+}
+
+.button{
+    padding: 3vh 3vh;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.btn2{
+    width: 100px;
+    height: 5vh;
+    border-radius: 30px;
+    text-align: center;
+    background: rgb(40,0,0);
+    background: linear-gradient(230deg, rgba(40,0,0,1) 2%, rgba(38,95,105,1) 50%, rgba(40,0,0,1) 100%);
+    border: 2px solid #A2D9CE;
+    transition: background-color 5s;
+    font-family: 'B612', sans-serif;
+    font-size: 3vh;
+    color: white;
+}
+.btn2:hover{
+    background: rgb(38,95,105);
+    background: linear-gradient(230deg, rgba(38,95,105,1) 2%, rgba(40,0,0,1) 50%, rgba(38,95,105,1) 100%);
+    color: wheat;
+    font-family: 'B612', sans-serif;
+    font-size: 3vh;
+    color: wheat;
+}
+
+h2{
+    color: black;
+}
+#primary_color,#primary_color1{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: black dot-dash 10px;
+    outline: none;
+    -webkit-appearance: none;
+}
+#primary_color::-webkit-color-swatch-wrapper,#primary_color1::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+#primary_color::-webkit-color-swatch,#primary_color1::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+}
